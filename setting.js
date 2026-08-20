@@ -30,21 +30,21 @@ export const settings = {
     // commands/menu.js sama sekali.
     channelUrl:  'https://whatsapp.com/channel/0029VbD6XZW3AzNITBzI7c2L',
 
-    botName:      'GOJO SATORU MD V2',
+    botName:      'Yuuki MD',
     botVersion:   '2.0.0',
     botTagline:   '❄️ Infinity Edition — The Strongest Bot',
-    prefix:       '.',
+    prefix:       '., /, #, ~, !, $',
 
     // Nama Owner UTAMA — cuma dipakai untuk TAMPILAN (misal di .owner,
     // .allmenu, dll). Bebas diganti kapan saja, tidak butuh restart bot
     // untuk berlaku.
-    ownerName: 'Owner',
+    ownerName: 'Dimzz',
 
     // Nomor Owner UTAMA (format: 628xxx, tanpa "+", "@s.whatsapp.net",
     // atau spasi). Nomor ini OTOMATIS punya akses Owner penuh — beda
     // dengan `ownerName` di atas yang cuma teks tampilan. Cukup ganti
     // nilainya lalu restart bot untuk berlaku.
-    ownerNumber: '',
+    ownerNumber: '6281952716944',
 
     // Daftar nomor Owner TAMBAHAN (selain `ownerNumber` di atas, dan
     // selain Creator yang sudah otomatis menjadi Owner). Cukup tulis
@@ -56,15 +56,15 @@ export const settings = {
     // langsung aktif tanpa restart, beda dengan `ownerNumber`/
     // `ownerNumbers` di sini yang butuh restart bot setelah diedit.)
     ownerNumbers: [
-        // '6281234567890',
-        // '6289876543210',
+         '6281952716944',
+         '62895411142438',
     ],
 
     // Daftar nomor Premium. Sama formatnya seperti ownerNumbers di atas.
     // Owner dan Creator otomatis mendapat akses Premium juga, jadi tidak
     // perlu didaftarkan ulang di sini.
     premiumNumbers: [
-        // '6281234567890',
+    
     ],
 
     // Nomor HP untuk pairing (format: 628xxx tanpa + atau spasi)
@@ -72,7 +72,7 @@ export const settings = {
     // Kalau dua-duanya dikosongkan/dibiarkan placeholder ini, bot akan
     // TANYA langsung lewat console saat startup (lihat promptNomorHP()
     // di index.js) — jadi tidak wajib edit file ini kalau mau isi manual.
-    nomorPairing: '628xxxxxxxxxx',
+    nomorPairing: '6285122600323',
 
     // URL thumbnail Gojo Satoru (tampil di setiap reply bot)
     thumbnailUrl: 'https://files.catbox.moe/8jkhav.png',
@@ -94,14 +94,14 @@ export const settings = {
     // Ganti nomor di bawah sesuai e-wallet kamu sendiri (boleh beda-beda
     // nomor per e-wallet, tidak harus sama semua). Tidak perlu restart bot
     // untuk berlaku — cukup edit lalu simpan.
-    nodana:  '085188426365',
-    nogopay: '085188426365',
-    noovo:   '085188426365',
+    nodana:  '081952716944',
+    nogopay: '-',
+    noovo:   '-',
 
     // Sosial media Owner — ditampilkan lewat command .sosmedowner.
-    ig:   '@kenjikitagawa',
-    tele: 'GojoSatoruOFC',
-    yt:   'JanpiwWok',
+    ig:   '-',
+    tele: '-',
+    yt:   'Fulanzz',
 
 
     // ╔═══════════════════════════════════════╗
